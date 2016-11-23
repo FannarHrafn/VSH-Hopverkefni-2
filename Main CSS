@@ -1,0 +1,10 @@
+/*Main CSS*/
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	margin: 0 auto;
+}
