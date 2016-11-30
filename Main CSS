@@ -4,22 +4,24 @@
 * {
 	box-sizing: border-box;
 }
+
 body {
 	max-width: 60em;
 	margin: 0 auto;
 }
+
 h2{
 	font-family: 'Cinzel', serif;
 	font-size: 45px;
 	margin-bottom: 10px;
-	color: white;
 	text-align: center;
 
 }
+
 .texti{
 	font-family: 'Cinzel', serif;
-	color: white;
 }
+
 .background{
 	background-image: url(Myndir/Background.jpg);
 	background-repeat: no-repeat;
@@ -27,11 +29,29 @@ h2{
 	background-position: center;
 	background-size: cover;
 }
+
 .backgroundhue{
 	background-color: rgba(0, 0, 0, 0.7);
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 15px;
+}
+
+.yfirlit {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.yfirlit a {
+	text-decoration: none;
+	margin:1em 15px 1em 15px;
+}
+
+.yfirlit a,
+h2,
+.texti {
+	color: white;
 }
 
 img {
