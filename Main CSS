@@ -9,14 +9,15 @@ body {
 	margin: 0 auto;
 }
 h2{
-	font-family: 'Tillana', cursive;
-	font-weight: 900;
+	font-family: 'Cinzel', serif;
 	font-size: 45px;
 	margin-bottom: 10px;
 	color: white;
+	text-align: center;
+
 }
 p{
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Cinzel', serif;
 	color: white;
 }
 .background{
@@ -27,5 +28,8 @@ p{
 	background-size: cover;
 }
 .backgroundhue{
-	
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
 }
