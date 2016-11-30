@@ -8,3 +8,24 @@ body {
 	max-width: 60em;
 	margin: 0 auto;
 }
+h2{
+	font-family: 'Tillana', cursive;
+	font-weight: 900;
+	font-size: 45px;
+	margin-bottom: 10px;
+	color: white;
+}
+p{
+	font-family: 'Cormorant Garamond', serif;
+	color: white;
+}
+.background{
+	background-image: url(Myndir/Background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.backgroundhue{
+	
+}
