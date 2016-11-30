@@ -33,3 +33,10 @@ p{
 	padding-right: 10px;
 	border-radius: 15px;
 }
+
+img {
+	margin-top: 30px;
+	margin-left: 135px;
+	width: 700px;
+
+}
