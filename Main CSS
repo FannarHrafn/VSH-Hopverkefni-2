@@ -1,14 +1,13 @@
 /*Main CSS*/
 
-
-* {
-	box-sizing: border-box;
-}
+/*Lætur í síðu í miðjuna og gefur rými neðst*/
 
 body {
 	max-width: 60em;
-	margin: 0 auto;
+	margin: 0 auto 3em auto;
 }
+
+/*classi fyrir alla titla*/
 
 h2{
 	font-family: 'Cinzel', serif;
@@ -18,9 +17,13 @@ h2{
 
 }
 
+/*Allur texti á síðunni notar þetta font*/
+
 .texti{
 	font-family: 'Cinzel', serif;
 }
+
+/*Bakgrunns mynd*/
 
 .background{
 	background-image: url(Myndir/Background.jpg);
@@ -30,12 +33,16 @@ h2{
 	background-size: cover;
 }
 
+/*Svarti bakgrunnurinn undir texta*/
+
 .backgroundhue{
 	background-color: rgba(0, 0, 0, 0.7);
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 15px;
 }
+
+/*Efnisyfirlit*/
 
 .yfirlit {
 	display: flex;
@@ -45,18 +52,44 @@ h2{
 
 .yfirlit a {
 	text-decoration: none;
-	margin:1em 15px 1em 15px;
+	margin:20px 9px 8px 9px;
+	font-size: 19px;
 }
 
+/*Heimildaskrá*/
+
+.heimildir {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.heimildir a {
+	text-decoration: none;
+	margin:15px 5px 8px 5px;
+	font-size: 17px;
+}
+
+/*Geri allan texta hvítan*/
+
 .yfirlit a,
+.heimildir a,
 h2,
 .texti {
 	color: white;
 }
 
+/*Geri allt hover blágrátt*/
+
+.yfirlit a:hover,
+.heimildir a:hover {
+	color: #303844;
+}
+
+/*Fyrir stóra DARK SOULS efst á síðu*/
+
 img {
 	margin-top: 30px;
 	margin-left: 135px;
 	width: 700px;
-
 }
